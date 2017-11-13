@@ -1,0 +1,259 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+$box-shadow:0 1px 4px 0 rgba(0,0,0,.1);
+
+#cardMin {display:none}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 1210px) {
+  .container {
+    max-width: 1144px;
+    margin-left: 15%;
+    padding: 1em;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+    height : 5.1em;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+
+}
+
+ .iconHeader{
+      height: 4em;
+      margin: 0.5em;
+  }
+
+  .cardPorcent{
+  padding:1em;
+  margin-left: 4%;
+  height: 8em !important;
+
+  color: #656161;
+  -webkit-box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+-moz-box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+  }
+
+  .cardPorcent{
+  padding:1em;
+  margin-left: 4%;
+  height: 8em !important;
+  color: #656161;
+  -webkit-box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+-moz-box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+  }
+
+  .cardToday{
+  margin-left: 2%;
+  height: 8em;
+  background-color:#0d6960;
+  color:white;
+  -webkit-box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+  -moz-box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+  box-shadow: 5px 6px 24px 2px rgba(194,194,194,1);
+  }
+
+    .graficStyle{
+  margin-left: 2%;
+  margin-top: 2%;
+  height: 27em;
+  -webkit-box-shadow: 2px 3px 24px 0px rgba(194,194,194,1);
+  -moz-box-shadow: 2px 3px 24px 0px rgba(194,194,194,1);
+  box-shadow: 2px 3px 24px 0px rgba(194,194,194,1);
+  }
+
+   .pillStyle{
+  margin-left: 2%;
+  margin-top: 2%;
+  height: 27em;
+  width: 43.6%;
+  -webkit-box-shadow: 2px 3px 24px 0px rgba(194,194,194,1);
+  -moz-box-shadow: 2px 3px 24px 0px rgba(194,194,194,1);
+  box-shadow: 2px 3px 24px 0px rgba(194,194,194,1);
+  }
+
+  .boxHeader{
+  margin-left: 2%;
+  border: 1px solid #c2c5c5;
+  background-color:white;
+  color:#a09c9c;
+  width: 13.5% !important;
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(199,197,199,1);
+-moz-box-shadow: 0px 0px 2px 1px rgba(199,197,199,1);
+box-shadow: 0px 0px 2px 1px rgba(199,197,199,1);
+  border-radius:7px;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+  }
+
+  .boxTitle{
+  font-weight: 500;
+  font-size: 11px;
+  margin-left: -24%;
+  }
+
+  .boxContent{
+  color: #219f93;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: -24%;
+  margin-top: -7%;
+  }
+
+    .updateCuentas{
+  margin-left: 2%;
+  border: 1px solid #c2c5c5;
+  background-color:#34a499;
+  color:white;
+  width: 13.5% !important;
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(199,197,199,1);
+-moz-box-shadow: 0px 0px 2px 1px rgba(199,197,199,1);
+box-shadow: 0px 0px 2px 1px rgba(199,197,199,1);
+  border-radius:7px;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+  }
+
+  .updateTitle{
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: -9%;
+  text-align: center;
+  }
+
+
+
+
+// MEDIA QUERY
+
+@media only screen and (max-width: 1210px) {
+    #cardFull { display: none; }
+    #cardMin {display:block;}
+    #headerCustome { display: none; }
+
+    .cardPorcent{
+      margin-left:0%;
+    }
+
+    .cardToday{
+      margin-left:0%;
+    }
+
+    .graficStyle{
+      margin-left: 0%;
+    }
+
+    .pillStyle{
+      margin-left:0%;
+      width: 100%;
+    }
+
+}
+
+
+
+
+
+.dropdown-content {
+    margin-top: 3.5em;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99999999999999999999;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #219f93;
+    font-weight: 600;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
